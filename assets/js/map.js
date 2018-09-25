@@ -9,7 +9,7 @@ mapTypeControlOptions: { mapTypeIds: ['style', google.maps.MapTypeId.ROADMAP] }
 };
 var map = new google.maps.Map(document.getElementById('map'), myOptions);
 /*アイコン設定*/
-var icon = new google.maps.MarkerImage('http://www.littledarlingcoffeeroasters.com/assets/svg/vi_01.svg',/*画像url*/
+var icon = new google.maps.MarkerImage('http://www.littledarlingcoffeeroasters.com/assets/img/common/ldcr.png',/*画像url*/
 new google.maps.Size(65,90),/*アイコンサイズ*/
 new google.maps.Point(0,0)/*アイコン位置*/
 );

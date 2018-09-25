@@ -1,7 +1,7 @@
 var map;
 
 function initMap() {
-var latlng = new google.maps.LatLng(35.6687579, 139.7239959);/* 座標 */
+var latlng = new google.maps.LatLng(35.668657, 139.724692);/* 座標 */
 var myOptions = {
 zoom: 15, /*拡大比率*/
 center: latlng,
